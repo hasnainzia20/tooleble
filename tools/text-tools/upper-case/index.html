@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Text to Uppercase</title>
+    <meta
+      name="description"
+      content="Convert any text to UPPERCASE instantly using this free online tool. Simple, fast, and mobile-friendly."
+    />
+    <link rel="canonical" href="https://tooleble.com/tools/text-uppercase/" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="../../../index.html">Tooleble</a></div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <nav id="nav">
+        <ul class="menu">
+          <li>
+            <a href="#">Text Tools</a>
+            <div class="dropdown">
+              <a href="../upper-case/index.html">Uppercase Converter</a>
+              <a href="../lower-case/index.html">Lowercase Converter</a>
+              <a href="../remove-duplicate-lines/index.html"
+                >Remove Duplicates</a
+              >
+              <a href="../word-counter/index.html">Word Counter</a>
+              <a href="../text-reverser/index.html">Text Reverser</a>
+            </div>
+          </li>
+          <li>
+            <a href="#">Code Tools</a>
+            <div class="dropdown">
+              <a href="#">JSON Formatter</a>
+              <a href="#">HTML Minifier</a>
+              <a href="#">CSS Beautifier</a>
+              <a href="#">Base64 Encoder</a>
+              <a href="#">JS Obfuscator</a>
+            </div>
+          </li>
+          <li>
+            <a href="#">Unit Converter</a>
+            <div class="dropdown">
+              <a href="#">Length Converter</a>
+              <a href="#">Weight Converter</a>
+              <a href="#">Temperature Converter</a>
+              <a href="#">Speed Converter</a>
+              <a href="#">Volume Converter</a>
+            </div>
+          </li>
+          <li>
+            <a href="#">Math & Science</a>
+            <div class="dropdown">
+              <a href="#">Scientific Calculator</a>
+              <a href="#">BMI Calculator</a>
+              <a href="#">Circle Area</a>
+              <a href="#">Quadratic Solver</a>
+              <a href="#">Logarithm Finder</a>
+            </div>
+          </li>
+          <li>
+            <a href="#">Finance & Personal</a>
+            <div class="dropdown">
+              <a href="#">Loan Calculator</a>
+              <a href="#">Tip Calculator</a>
+              <a href="#">EMI Calculator</a>
+              <a href="#">Age Calculator</a>
+              <a href="#">Income Tax Estimator</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <h1>Text to Uppercase</h1>
+      <p>Paste your text below and convert it to UPPERCASE instantly.</p>
+
+      <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+      <button onclick="convertToUppercase()">Convert</button>
+      <textarea
+        id="outputText"
+        placeholder="UPPERCASE result..."
+        readonly
+      ></textarea>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h3>Tooleble</h3>
+          <p>Small tools for real work. No noise, just function.</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Tools</h4>
+            <ul>
+              <li><a href="#">Text Tools</a></li>
+              <li><a href="#">Code Tools</a></li>
+              <li><a href="#">Unit Converters</a></li>
+              <li><a href="#">Math Calculators</a></li>
+              <li><a href="#">Finance Tools</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Tooleble. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

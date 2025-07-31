@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Text to Uppercase</title>
+    <title>Text to Lowercase</title>
     <meta
       name="description"
-      content="Convert any text to UPPERCASE instantly using this free online tool. Simple, fast, and mobile-friendly."
+      content="Convert any text to Lower instantly using this free online tool. Simple, fast, and mobile-friendly."
     />
-    <link rel="canonical" href="https://tooleble.com/tools/text-uppercase/" />
+    <link rel="canonical" href="https://tooleble.com/tools/text-lowercase/" />
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -21,11 +21,13 @@
           <li>
             <a href="#">Text Tools</a>
             <div class="dropdown">
-              <a href="#">Uppercase Converter</a>
-              <a href="#">Lowercase Converter</a>
-              <a href="#">Remove Duplicates</a>
-              <a href="#">Word Counter</a>
-              <a href="#">Text Reverser</a>
+              <a href="../upper-case/index.html">Uppercase Converter</a>
+              <a href="../lower-case/index.html">Lowercase Converter</a>
+              <a href="../remove-duplicate-lines/index.html"
+                >Remove Duplicates</a
+              >
+              <a href="../word-counter/index.html">Word Counter</a>
+              <a href="../text-reverser/index.html">Text Reverser</a>
             </div>
           </li>
           <li>
@@ -74,16 +76,16 @@
     <body>
       <main class="main-container">
         <h1>Text to Uppercase</h1>
-        <p>Paste your text below and convert it to UPPERCASE instantly.</p>
+        <p>Paste your text below and convert it to lowercase instantly.</p>
 
         <textarea
           id="inputText"
           placeholder="Enter your text here..."
         ></textarea>
-        <button onclick="convertToUppercase()">Convert</button>
+        <button onclick="convertToLowerCase()">Convert</button>
         <textarea
           id="outputText"
-          placeholder="UPPERCASE result..."
+          placeholder="lowercase result..."
           readonly
         ></textarea>
       </main>
@@ -123,15 +125,6 @@
         </div>
       </footer>
     </body>
-    <script>
-      const hamburger = document.getElementById("hamburger");
-      const nav = document.getElementById("nav");
-
-      hamburger.addEventListener("click", () => {
-        nav.classList.toggle("open");
-      });
-    </script>
-
     <script src="script.js"></script>
   </body>
 </html>
