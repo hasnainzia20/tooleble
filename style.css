@@ -24,6 +24,10 @@ header {
   color: #00dfd8;
 }
 
+.logo a {
+  text-decoration: none;
+  color: #00dfd8;
+}
 nav {
   display: flex;
   align-items: center;
