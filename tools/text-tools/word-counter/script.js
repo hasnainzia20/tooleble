@@ -1,10 +1,3 @@
-const hamburger = document.getElementById("hamburger");
-const nav = document.getElementById("nav");
-
-hamburger.addEventListener("click", () => {
-  nav.classList.toggle("open");
-});
-
 const input = document.getElementById("inputText");
 const wordCount = document.getElementById("wordCount");
 const charCount = document.getElementById("charCount");
